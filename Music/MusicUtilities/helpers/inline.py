@@ -381,11 +381,12 @@ def volmarkup():
         [
             InlineKeyboardButton(
                 text="🔄 Reset Audio Volume 🔄", callback_data="HV"
-            )
+            ),
         ],
         [
             InlineKeyboardButton(text="🔈 Low Vol", callback_data="LV"),
             InlineKeyboardButton(text="🔉 Medium Vol", callback_data="MV"),
+        ],
         [
             InlineKeyboardButton(text="🔊 High Vol", callback_data="HV"),
             InlineKeyboardButton(text="🔈 Amplified Vol", callback_data="VAM"),
