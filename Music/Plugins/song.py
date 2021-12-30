@@ -19,7 +19,7 @@ chat_watcher_group = 3
 
 def time_to_seconds(time):
     stringt = str(time)
-    return sum(int(x) * 60 ** i for i, x in enumerate(reversed(stringt.split(":"))))
+    return sum(int(x) * 120 ** i for i, x in enumerate(reversed(stringt.split(":"))))
 
 
 @Client.on_message(
@@ -307,30 +307,30 @@ def search_markup(
     buttons = [
         [
             InlineKeyboardButton(
-                text="¹", callback_data=f"beta {ID1}|{duration1}|{user_id}"
+                text="1️⃣", callback_data=f"beta {ID1}|{duration1}|{user_id}"
             ),
             InlineKeyboardButton(
-                text="²", callback_data=f"beta {ID2}|{duration2}|{user_id}"
+                text="2️⃣", callback_data=f"beta {ID2}|{duration2}|{user_id}"
             ),
             InlineKeyboardButton(
-                text="³", callback_data=f"beta {ID3}|{duration3}|{user_id}"
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="⁴", callback_data=f"beta {ID4}|{duration4}|{user_id}"
-            ),
-            InlineKeyboardButton(
-                text="⁵", callback_data=f"beta {ID5}|{duration5}|{user_id}"
+                text="3️⃣", callback_data=f"beta {ID3}|{duration3}|{user_id}"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="⪻", callback_data=f"chonga 1|{query}|{user_id}"
+                text="4️⃣", callback_data=f"beta {ID4}|{duration4}|{user_id}"
+            ),
+            InlineKeyboardButton(
+                text="5️⃣", callback_data=f"beta {ID5}|{duration5}|{user_id}"
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="⬅️", callback_data=f"chonga 1|{query}|{user_id}"
             ),
             InlineKeyboardButton(text="✘", callback_data=f"ppcl2 smex|{user_id}"),
             InlineKeyboardButton(
-                text="⪼", callback_data=f"chonga 1|{query}|{user_id}"
+                text="➡️", callback_data=f"chonga 1|{query}|{user_id}"
             ),
         ],
     ]
@@ -354,30 +354,30 @@ def search_markup2(
     buttons = [
         [
             InlineKeyboardButton(
-                text="⁶", callback_data=f"beta {ID6}|{duration6}|{user_id}"
+                text="6️⃣", callback_data=f"beta {ID6}|{duration6}|{user_id}"
             ),
             InlineKeyboardButton(
-                text="⁷", callback_data=f"beta {ID7}|{duration7}|{user_id}"
+                text="7️⃣", callback_data=f"beta {ID7}|{duration7}|{user_id}"
             ),
             InlineKeyboardButton(
-                text="⁸", callback_data=f"beta {ID8}|{duration8}|{user_id}"
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="⁹", callback_data=f"beta {ID9}|{duration9}|{user_id}"
-            ),
-            InlineKeyboardButton(
-                text="¹⁰", callback_data=f"beta {ID10}|{duration10}|{user_id}"
+                text="8️⃣", callback_data=f"beta {ID8}|{duration8}|{user_id}"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="⪻", callback_data=f"chonga 2|{query}|{user_id}"
+                text="9️⃣", callback_data=f"beta {ID9}|{duration9}|{user_id}"
+            ),
+            InlineKeyboardButton(
+                text="🔟", callback_data=f"beta {ID10}|{duration10}|{user_id}"
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="⬅️", callback_data=f"chonga 2|{query}|{user_id}"
             ),
             InlineKeyboardButton(text="✘", callback_data=f"ppcl2 smex|{user_id}"),
             InlineKeyboardButton(
-                text="⪼", callback_data=f"chonga 2|{query}|{user_id}"
+                text="➡️", callback_data=f"chonga 2|{query}|{user_id}"
             ),
         ],
     ]
@@ -388,12 +388,12 @@ def gets(videoid, user_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="ᴀᴜᴅɪᴏ", callback_data=f"gets audio|{videoid}|{user_id}"
+                text="AUDIO", callback_data=f"gets audio|{videoid}|{user_id}"
             ),
             InlineKeyboardButton(
-                text="ᴠɪᴅᴇᴏ", callback_data=f"gets video|{videoid}|{user_id}"
+                text="VIDEO", callback_data=f"gets video|{videoid}|{user_id}"
             ),
         ],
-        [InlineKeyboardButton(text="ᴛᴜᴛᴜᴘ", callback_data=f"close2")],
+        [InlineKeyboardButton(text="TUTUP", callback_data=f"close2")],
     ]
     return buttons
