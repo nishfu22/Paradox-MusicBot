@@ -1,8 +1,8 @@
 {
-    "name": "KyyMusic",
+    "name": "VenzMusic.v2",
     "description": "Music allow you to stream music trought the telegram voice chat feature.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/muhamadrizky16/KyyMusic",
+    "repository": "https://github.com/eldy020503/venzmusic.v2",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
@@ -52,7 +52,7 @@
         "DURATION_LIMIT": {
             "description": "filled, don't change this !",
             "required": true,
-            "value": "3600"
+            "value": "7200"
         },
         "BOT_TOKEN": {
             "description": "fill with your bot token get from @BotFather on telegram",
