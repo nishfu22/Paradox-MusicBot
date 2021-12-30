@@ -42,10 +42,10 @@ def start_pannel():
             InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{CHANNEL}"),
         ],
         [
-            InlineKeyboardButton("📚 ᴄᴏᴍᴍᴀɴᴅ​ 📚", url="https://telegra.ph/ҡʏʏ-ᴇx-12-15"),
+            InlineKeyboardButton("📚 ᴄᴏᴍᴍᴀɴᴅ​ 📚", url="https://telegra.ph/ᴇʟグー-12-30"),
         ],
         [
-            InlineKeyboardButton("🌐 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 🌐", url="https://github.com/muhammadrizky16/KyyMusic"),
+            InlineKeyboardButton("🌐 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 🌐", url="https://github.com/eldy020502/venzmusic.v2"),
         ],
     ]
     return (
@@ -65,10 +65,10 @@ pstart_markup = InlineKeyboardMarkup(
             InlineKeyboardButton("✨ ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{CHANNEL}"),
         ],
         [
-            InlineKeyboardButton("📚 ᴄᴏᴍᴍᴀɴᴅ ​📚", url="https://telegra.ph/ҡʏʏ-ᴇx-12-15"),
+            InlineKeyboardButton("📚 ᴄᴏᴍᴍᴀɴᴅ ​📚", url="https://telegra.ph/ᴇʟグー-12-30"),
         ],
         [
-            InlineKeyboardButton("🌐 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 🌐", url="https://github.com/muhammadrizky16/KyyMusic"),
+            InlineKeyboardButton("🌐 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 🌐", url="https://github.com/eldy020502/venzmusic.v2"),
         ],
     ]
 )
@@ -165,7 +165,7 @@ async def play(_, message: Message):
 
 ❇️**Judul:** {x["title"]}
 
-⏳ **Durasi:** {round(x["duration"] / 60)} Mins
+⏳ **Durasi:** {round(x["duration"] / 120)} Mins
 👀 **Ditonton:** `{x["view_count"]}`
 👍 **Suka:** `{x["like_count"]}`
 👎 **Tidak suka:** `{x["dislike_count"]}`
