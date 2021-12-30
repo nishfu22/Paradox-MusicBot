@@ -135,7 +135,7 @@ Downloading....
                 )
                 thumbnail = (x["thumbnail"])
                 duration = (x["duration"])
-                duration = round(x["duration"] / 60)
+                duration = round(x["duration"] / 120)
                 theme = random.choice(themes)
                 ctitle = await CHAT_TITLE(ctitle)
                 f2 = open(f'search/{afk}id.txt', 'r')        
