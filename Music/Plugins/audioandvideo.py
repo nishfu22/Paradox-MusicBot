@@ -442,10 +442,10 @@ __Youtube Inline Download Powered By Music__ """
 def p_mark(link, channel):
     buttons= [
             [
-                InlineKeyboardButton(text="ᴡᴀᴛᴄʜ ᴏɴ ʏᴏᴜᴛᴜʙᴇ", url=f'{link}')
+                InlineKeyboardButton(text="Wacth On YouTube", url=f'{link}')
             ],
             [ 
-                InlineKeyboardButton(text="ᴠɪsɪᴛ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ", url=f'{channel}')
+                InlineKeyboardButton(text="Visit YouTube Channel", url=f'{channel}')
             ],
         ]
     return buttons    
