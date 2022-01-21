@@ -1,8 +1,8 @@
 {
-    "name": "VenzMusic.v2",
+    "name": "Paradox-MusicBot",
     "description": "Music allow you to stream music trought the telegram voice chat feature.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/eldy020503/venzmusic.v2",
+    "repository": "https://github.com/nishfu22/Paradox-MusicBot",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
