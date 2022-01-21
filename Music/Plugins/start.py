@@ -42,10 +42,10 @@ def start_pannel():
             InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{CHANNEL}"),
         ],
         [
-            InlineKeyboardButton("📚 ᴄᴏᴍᴍᴀɴᴅ​ 📚", url="https://telegra.ph/ᴇʟグー-12-30"),
+            InlineKeyboardButton(" ᴄᴏᴍᴍᴀɴᴅ​ ", url="https://telegra.ph/ᴇʟグー-12-30"),
         ],
         [
-            InlineKeyboardButton("🌐 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 🌐", url="https://github.com/eldy020502/venzmusic.v2"),
+            InlineKeyboardButton(" sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ", url="https://github.com/nishfu22/Paradox-Musicbot"),
         ],
     ]
     return (
@@ -58,17 +58,17 @@ pstart_markup = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                "➕ ᴀᴅᴅ ᴍᴇ ʏᴏᴜʀ ᴛᴏ ɢʀᴏᴜᴘ​ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
+                " ᴀᴅᴅ ᴍᴇ ʏᴏᴜʀ ᴛᴏ ɢʀᴏᴜᴘ​ ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
         ],
         [
-            InlineKeyboardButton(text="✨ sᴜᴘᴘᴏʀᴛ​", url=f"https://t.me/{GROUP}"),
-            InlineKeyboardButton("✨ ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{CHANNEL}"),
+            InlineKeyboardButton(text=" sᴜᴘᴘᴏʀᴛ​", url=f"https://t.me/{GROUP}"),
+            InlineKeyboardButton(" ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{CHANNEL}"),
         ],
         [
-            InlineKeyboardButton("📚 ᴄᴏᴍᴍᴀɴᴅ ​📚", url="https://telegra.ph/ᴇʟグー-12-30"),
+            InlineKeyboardButton(" ᴄᴏᴍᴍᴀɴᴅ ​", url="https://telegra.ph/ᴇʟグー-12-30"),
         ],
         [
-            InlineKeyboardButton("🌐 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 🌐", url="https://github.com/eldy020502/venzmusic.v2"),
+            InlineKeyboardButton(" sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ", url="https://github.com/eldy020502/venzmusic.v2"),
         ],
     ]
 )
@@ -94,7 +94,7 @@ async def welcome(_, message: Message):
                 out = start_pannel()
                 await message.reply_text(
                     f"""
-👋 ** Halo senang rasanya bisa bergabung di grup ini**
+👋 ** Beli sendok di tapos ,Paradox nih bos**
 
 💡 **Jangan lupa untuk menjadikan saya sebagai admin di grup ini**
 """,
@@ -163,16 +163,16 @@ async def play(_, message: Message):
             searched_text = f"""
 🔍 **Video Track Information**
 
-❇️**Judul:** {x["title"]}
+**Judul:** {x["title"]}
 
-⏳ **Durasi:** {round(x["duration"] / 120)} Mins
-👀 **Ditonton:** `{x["view_count"]}`
-👍 **Suka:** `{x["like_count"]}`
-👎 **Tidak suka:** `{x["dislike_count"]}`
-⭐️ **Peringkat Rata-rata:** {x["average_rating"]}
-🎥 **Nama channel:** {x["uploader"]}
-📎 **Channel Link:** [Kunjungi Dari Sini]({x["channel_url"]})
-🔗 **Link:** [Link]({x["webpage_url"]})
+ **Durasi:** {round(x["duration"] / 120)} Mins
+ **Ditonton:** `{x["view_count"]}`
+ **Suka:** `{x["like_count"]}`
+ **Tidak suka:** `{x["dislike_count"]}`
+ **Peringkat Rata-rata:** {x["average_rating"]}
+ **Nama channel:** {x["uploader"]}
+ **Channel Link:** [Kunjungi Dari Sini]({x["channel_url"]})
+ **Link:** [Link]({x["webpage_url"]})
 """
             link = x["webpage_url"]
             buttons = personal_markup(link)
