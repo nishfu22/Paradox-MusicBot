@@ -1,4 +1,4 @@
-<h2 align="centre">VENZ MUSIC V2</h2>
+<h2 align="centre">PARADOX MUSIC</h2>
 
 <h3>Requirements 📝</h3>
 
@@ -84,7 +84,7 @@ YukkiMusicPlayer is a modified version of [Callsmusic](https://github.com/callsm
 
 # DEPLOY
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/eldy020502/venzmusic.v2">
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/nishfu22/Paradox-MusicBot">
   <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blue?style=flat&logo=heroku" width="325" height="50.100" /></a></p>
 
 
